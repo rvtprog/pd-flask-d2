@@ -10,7 +10,7 @@ Izveidot route '/health', kas atgriež tekstu "OK".
 - Izveidot route '/calc', kas atgriež template "calc.html"
 
 ### :point_right: Uzdevums 3
-- Izveidot "layout.html" (html kodu paņemt no "home.html"), lai body daļā varētu atgriez citus template satura blokus. 
+- Izveidot "layout.html" (html kodu paņemt no "home.html"), lai body daļā iekš container varētu atgriez citus template satura blokus. 
 - Pievienot (salinkot) "layout.html" ar "main.css"
 - Pārveidot "calc.html", "home.html", lai viņus varētu izmantot, kā blokus iekš "layout.html".
 
