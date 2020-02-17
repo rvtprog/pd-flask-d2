@@ -15,9 +15,12 @@ Izveidot route /calc, kas atgriež template "calc.html"
 - Pārveidot calc.html, home.html, lai viņus varētu izmantot, kā blokus iekš layout.html.
 
 ### :point_right: Uzdevums 4
-Izveidot satura bloku about.html, kur parādās jūsu Vārds, Uzvārds un grupa.
+Izveidot satura bloku about.html, kur parādās jūsu Vārds, Uzvārds un grupa un pievienot viņu menu.
 
 ### :point_right: Uzdevums 5
+Uztaisīt, lai iezīmējas atbilstošs menu (pēc klikšķa uz tā un paliek izīmēts sarkanā krāsā), tai pat laikā pārējie menu paliek "standarta" izskatā.
+
+### :point_right: Uzdevums 6
 Izveidot route /calc (POST), kas saņem JSON, kurš atbilst šādam formātam:
 ``` json
 {
@@ -38,9 +41,5 @@ Uz šādu pieprasījumu jāatbild ar:
 
 ### :point_right: Uzdevums 6
 Nopublicēt heroku pabeigto lapu un pievienot readme pēdējā rindiņā linku uz lapu.
-
-
-
-
   
 Link to Heroku:
