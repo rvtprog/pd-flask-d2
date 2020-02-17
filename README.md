@@ -1,12 +1,23 @@
 # Pārbaudes darbs Flask
 
-### Uzdevums 1
+:exclamation: Pēc katra uzdevuma izpildies veikt commit. :exclamation:
+
+### :point_right: Uzdevums 1
 Izveidot route /health, kas atgriež tekstu "OK"
 
-### Uzdevums 2
+### :point_right: Uzdevums 2
+Izveidot route /home, kas atgriež template "home.html"
 
+### :point_right: Uzdevums 3
+Izveidot layout.html (html kodu paņemt no home.html), lai body daļā varētu atgriez citus template satura blokus.
 
-### Uzdevums 3
+### :point_right: Uzdevums 4
+Pārveidot calc.html, home.html, lai viņus varētu izmantot, kā blokus iekš layout.html.
+
+### :point_right: Uzdevums 5
+Izveidot satura bloku about.html, kur parādās jūsu Vārds, Uzvārds un grupa.
+
+### :point_right: Uzdevums 6
 Izveidot route /calc, kas saņem JSON, kurš atbilst šādam formātam:
 ``` json
 {
@@ -24,3 +35,8 @@ Uz šādu pieprasījumu jāatbild ar:
     "rez":"15"
 }
 ```
+
+### :point_right: Uzdevums 7
+Nopublicēt heroku pabeigto lapu un pievienot readme pēdējā rindiņā linku uz lapu.
+
+
