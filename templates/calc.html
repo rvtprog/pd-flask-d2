@@ -1,7 +1,7 @@
 <!DOCTYPE html>
   <head>
     <title>Mana lapa</title>
-    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}"/>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
   </head>
   <body>
     <header>
@@ -24,7 +24,7 @@
         <input id="sk1" placeholder="Enter number" type="text">
         <input id="darb" placeholder="+, -, /, *" type="text">
         <input id="sk2" placeholder="Enter number" type="text">
-        <button id="btnCalc" onClick="suutiZinju();" type="button">Send</button>
+        <button class="button" onClick="suutiZinju();" type="button">Send</button>
     </div>
   </body>
 </html>
