@@ -34,12 +34,14 @@ Izveidot route '/calc' (POST), kas saņem JSON, kurš atbilst šādam formātam:
 - sk1 un sk2 => Veseli skaitļi, ko lietotājs ievada atbilstošos laukos.
 - darb => Iespējamās darbības (+, -, /, *) lietotājs ievada atbilstošos laukos.
 
-Uz šādu pieprasījumu jāatbild ar:
+Uz šādu pieprasījumu jāatbild ar (jāveic norādītā darbība):
 ``` json
 {
     "rez":"15"
 }
 ```
+
+- PĒDĒJAIS rezultāts jāsaglabā failā "data.txt"
 
 ### :point_right: Uzdevums 6
 Nopublicēt heroku pabeigto lapu un pievienot readme pēdējā rindiņā linku uz lapu.
