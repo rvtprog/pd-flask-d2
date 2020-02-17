@@ -31,8 +31,8 @@ Izveidot route '/calc' (POST), kas saņem JSON, kurš atbilst šādam formātam:
     "darb":"+"
 }
 ```
-- sk1 un sk2 => Veseli skaitļi
-- darb => Iespējamās darbības (+, -, /, *)
+- sk1 un sk2 => Veseli skaitļi, ko lietotājs ievada atbilstošos laukos.
+- darb => Iespējamās darbības (+, -, /, *) lietotājs ievada atbilstošos laukos.
 
 Uz šādu pieprasījumu jāatbild ar:
 ``` json
