@@ -19,11 +19,10 @@ async function suutiZinju() {
         body: JSON.stringify({ "sk1": sk1, "sk2":sk2, "darb":darb })
     });
     const datuObjekts = await atbilde.json();
-
-    console.log(datuObjekts)
+    paraditRezultatu(datuObjekts);
 }
 
 function paraditRezultatu(dati) {
     var rezDiv = document.getElementById("rezultats");
-    chataDiv.innerHTML = dati["rez"] + "<br/>";
+    rezDiv.innerHTML = "<p>Rezultats " + dati["rez"] + "</p>";
 }
