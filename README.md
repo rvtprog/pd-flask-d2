@@ -1,6 +1,12 @@
 # Pārbaudes darbs Flask
 
 ### Uzdevums 1
+Izveidot route /health, kas atgriež tekstu "OK"
+
+### Uzdevums 2
+
+
+### Uzdevums 3
 Izveidot route /calc, kas saņem JSON, kurš atbilst šādam formātam:
 ``` json
 {
