@@ -22,3 +22,8 @@ async function suutiZinju() {
 
     console.log(datuObjekts)
 }
+
+function paraditRezultatu(dati) {
+    var rezDiv = document.getElementById("rezultats");
+    chataDiv.innerHTML = dati["rez"] + "<br/>";
+}
