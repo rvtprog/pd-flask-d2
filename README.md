@@ -42,8 +42,3 @@ Uz šādu pieprasījumu jāatbild ar (jāveic norādītā darbība):
 ```
 
 - PĒDĒJAIS rezultāts jāsaglabā failā "data.txt"
-
-### :point_right: Uzdevums 6
-Nopublicēt heroku pabeigto lapu un pievienot readme pēdējā rindiņā linku uz lapu.
-  
-Link to Heroku:
